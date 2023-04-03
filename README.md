@@ -1,7 +1,7 @@
-## olá! Sou gabriel dumith👋
+## olá! Sou Gabriel Dumith👋
 
-- 🌱 esou aprendendo: front-end
-- 😄 Pronomes: ele/dele
+- 🌱 estou aprendendo: front-end
+
 
     
  <div>
