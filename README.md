@@ -19,7 +19,7 @@
 
   <img align="center" alt="Ana-Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
   </div>
- 
+ <br>
 <div>
     <a href="https://github.com/GabrielDumith">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=GabrielDumith&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
