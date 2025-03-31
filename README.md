@@ -1,6 +1,6 @@
 ## olá! Sou Gabriel Dumith👋
 
-- 🌱 estou aprendendo: front-end
+
 
 
     
