@@ -30,32 +30,11 @@
 
 ### 📊 Estatísticas do GitHub
 
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 */12 * * *" # Atualiza a cada 12 horas
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: GabrielDumith
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DeldMI/DeldMi/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DeldMI/DeldMi/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DeldMI/DeldMi/output/github-contribution-grid-snake.svg">
+</picture>  
 
 ### 📫 Conecte-se comigo
 
